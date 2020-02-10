@@ -19,7 +19,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "02/03/2020 15:37:02"
+// Generated on "02/10/2020 14:47:44"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          CPU8bits
 // 
@@ -90,42 +90,44 @@ end
 initial
 begin
 	BusDatos[7] = 1'b1;
-	BusDatos[7] = #80000 1'b0;
+	BusDatos[7] = #60000 1'b0;
 end 
 // BusDatos[ 6 ]
 initial
 begin
-	BusDatos[6] = 1'b1;
-	BusDatos[6] = #80000 1'b0;
+	BusDatos[6] = 1'b0;
+	BusDatos[6] = #60000 1'b1;
+	BusDatos[6] = #60000 1'b0;
 end 
 // BusDatos[ 5 ]
 initial
 begin
 	BusDatos[5] = 1'b1;
-	BusDatos[5] = #80000 1'b0;
+	BusDatos[5] = #60000 1'b0;
 end 
 // BusDatos[ 4 ]
 initial
 begin
-	BusDatos[4] = 1'b1;
-	BusDatos[4] = #80000 1'b0;
+	BusDatos[4] = 1'b0;
 end 
 // BusDatos[ 3 ]
 initial
 begin
 	BusDatos[3] = 1'b1;
-	BusDatos[3] = #80000 1'b0;
+	BusDatos[3] = #60000 1'b0;
 end 
 // BusDatos[ 2 ]
 initial
 begin
 	BusDatos[2] = 1'b1;
-	BusDatos[2] = #80000 1'b0;
+	BusDatos[2] = #120000 1'b0;
 end 
 // BusDatos[ 1 ]
 initial
 begin
 	BusDatos[1] = 1'b0;
+	BusDatos[1] = #60000 1'b1;
+	BusDatos[1] = #60000 1'b0;
 end 
 // BusDatos[ 0 ]
 initial
@@ -133,93 +135,153 @@ begin
 	BusDatos[0] = 1'b0;
 end 
 
+// Type
+initial
+begin
+	Type = 1'b1;
+	Type = #120000 1'b0;
+end 
+// SelDestino[ 2 ]
+initial
+begin
+	SelDestino[2] = 1'b0;
+	SelDestino[2] = #60000 1'b1;
+	SelDestino[2] = #60000 1'b0;
+	SelDestino[2] = #120000 1'b1;
+	SelDestino[2] = #60000 1'b0;
+	SelDestino[2] = #60000 1'b1;
+	SelDestino[2] = #60000 1'b0;
+end 
+// SelDestino[ 1 ]
+initial
+begin
+	SelDestino[1] = 1'b1;
+	SelDestino[1] = #60000 1'b0;
+	SelDestino[1] = #240000 1'b1;
+	SelDestino[1] = #60000 1'b0;
+end 
+// SelDestino[ 0 ]
+initial
+begin
+	SelDestino[0] = 1'b0;
+	SelDestino[0] = #60000 1'b1;
+	SelDestino[0] = #120000 1'b0;
+	SelDestino[0] = #120000 1'b1;
+	SelDestino[0] = #60000 1'b0;
+end 
+
 // Cin
 initial
 begin
 	Cin = 1'b0;
+	Cin = #120000 1'b1;
+	Cin = #60000 1'b0;
 end 
 
 // CLK_reg
 initial
 begin
 	CLK_reg = 1'b0;
+	CLK_reg = #20000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
+	CLK_reg = #40000 1'b1;
+	CLK_reg = #20000 1'b0;
 end 
 
 // M
 initial
 begin
 	M = 1'b0;
+	M = #180000 1'b1;
+	M = #60000 1'b0;
+	M = #60000 1'b1;
+	M = #60000 1'b0;
 end 
 // S[ 3 ]
 initial
 begin
 	S[3] = 1'b0;
+	S[3] = #120000 1'b1;
+	S[3] = #120000 1'b0;
+	S[3] = #60000 1'b1;
+	S[3] = #60000 1'b0;
 end 
 // S[ 2 ]
 initial
 begin
 	S[2] = 1'b0;
+	S[2] = #180000 1'b1;
+	S[2] = #120000 1'b0;
 end 
 // S[ 1 ]
 initial
 begin
 	S[1] = 1'b0;
+	S[1] = #180000 1'b1;
+	S[1] = #120000 1'b0;
 end 
 // S[ 0 ]
 initial
 begin
 	S[0] = 1'b0;
-end 
-// SelDestino[ 2 ]
-initial
-begin
-	SelDestino[2] = 1'b0;
-end 
-// SelDestino[ 1 ]
-initial
-begin
-	SelDestino[1] = 1'b0;
-end 
-// SelDestino[ 0 ]
-initial
-begin
-	SelDestino[0] = 1'b0;
+	S[0] = #120000 1'b1;
+	S[0] = #120000 1'b0;
+	S[0] = #60000 1'b1;
+	S[0] = #60000 1'b0;
 end 
 // SelOpeA[ 2 ]
 initial
 begin
 	SelOpeA[2] = 1'b0;
+	SelOpeA[2] = #360000 1'b1;
+	SelOpeA[2] = #60000 1'b0;
 end 
 // SelOpeA[ 1 ]
 initial
 begin
 	SelOpeA[1] = 1'b0;
+	SelOpeA[1] = #120000 1'b1;
+	SelOpeA[1] = #60000 1'b0;
+	SelOpeA[1] = #120000 1'b1;
+	SelOpeA[1] = #60000 1'b0;
 end 
 // SelOpeA[ 0 ]
 initial
 begin
 	SelOpeA[0] = 1'b0;
+	SelOpeA[0] = #180000 1'b1;
+	SelOpeA[0] = #120000 1'b0;
 end 
 // SelOpeB[ 2 ]
 initial
 begin
 	SelOpeB[2] = 1'b0;
+	SelOpeB[2] = #120000 1'b1;
+	SelOpeB[2] = #60000 1'b0;
 end 
 // SelOpeB[ 1 ]
 initial
 begin
 	SelOpeB[1] = 1'b0;
+	SelOpeB[1] = #300000 1'b1;
+	SelOpeB[1] = #60000 1'b0;
 end 
 // SelOpeB[ 0 ]
 initial
 begin
 	SelOpeB[0] = 1'b0;
-end 
-
-// Type
-initial
-begin
-	Type = 1'b0;
+	SelOpeB[0] = #120000 1'b1;
+	SelOpeB[0] = #60000 1'b0;
 end 
 endmodule
 

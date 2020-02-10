@@ -51,13 +51,13 @@ Z15 !s90 -work|work|WaveformAluSem2.vwf.vt|
 R10
 n@a@l@u8bits_vlg_vec_tst
 vCPU8bits
-Z16 !s110 1580763302
+Z16 !s110 1581364068
 !i10b 1
 !s100 dj01QkPzbEboW`VO>VA6R2
 IkR>kmck:c]3K8X0bPBhdP0
 R1
-Z17 dD:/LabArquiLunes/LabCompLunes/simulation/qsim
-w1580763301
+Z17 dD:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim
+w1581364066
 R3
 R4
 R5
@@ -65,7 +65,7 @@ R6
 r1
 !s85 0
 31
-Z18 !s108 1580763302.000000
+Z18 !s108 1581364068.000000
 R8
 R9
 !i113 1
@@ -74,21 +74,21 @@ n@c@p@u8bits
 vCPU8bits_vlg_vec_tst
 R16
 !i10b 1
-!s100 KR^c;gU_IBBJSgbR1Vjbf0
-I1b14EHh<[^YYFAL]B?PzW3
+!s100 ^EBHJeTe_]b2kCXI4DA>m3
+IZ7DJQM;k]o?12nJJkTYG10
 R1
 R17
-w1580763300
-8Sem3.vwf.vt
-FSem3.vwf.vt
+w1581364064
+8Waveform.vwf.vt
+FWaveform.vwf.vt
 R13
 R6
 r1
 !s85 0
 31
 R18
-!s107 Sem3.vwf.vt|
-!s90 -work|work|Sem3.vwf.vt|
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
 !i113 1
 R10
 n@c@p@u8bits_vlg_vec_tst
@@ -132,3 +132,45 @@ R14
 R15
 !i113 1
 R10
+vTestMemoriaSemana4
+Z22 !s110 1581367716
+!i10b 1
+!s100 X2AgEhOGW4;D?LzacB3J:3
+IHVD_@5eKBOLR:h9MV>kS]3
+R1
+R17
+w1581367711
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1581367715.000000
+R8
+R9
+!i113 1
+R10
+n@test@memoria@semana4
+vTestMemoriaSemana4_vlg_vec_tst
+R22
+!i10b 1
+!s100 a0bz7i??C4=i?@N0ng9^z3
+Im4f]?o9V=m083ZzTOdWS93
+R1
+R17
+w1581367709
+8WaveformTestMemorySem4.vwf.vt
+FWaveformTestMemorySem4.vwf.vt
+R13
+R6
+r1
+!s85 0
+31
+!s108 1581367716.000000
+!s107 WaveformTestMemorySem4.vwf.vt|
+!s90 -work|work|WaveformTestMemorySem4.vwf.vt|
+!i113 1
+R10
+n@test@memoria@semana4_vlg_vec_tst
