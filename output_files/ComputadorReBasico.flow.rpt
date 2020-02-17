@@ -1,5 +1,5 @@
 Flow report for ComputadorReBasico
-Mon Feb 10 15:48:31 2020
+Mon Feb 17 15:48:04 2020
 Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Lite Edition
 
 
@@ -41,16 +41,16 @@ agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Feb 10 15:48:31 2020       ;
+; Flow Status                     ; Successful - Mon Feb 17 15:48:04 2020       ;
 ; Quartus Prime Version           ; 16.0.0 Build 211 04/27/2016 SJ Lite Edition ;
 ; Revision Name                   ; ComputadorReBasico                          ;
-; Top-level Entity Name           ; TestMemoriaSemana4                          ;
+; Top-level Entity Name           ; CompBasicoSem5                              ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CGXFC7C7F23C8                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 1 / 56,480 ( < 1 % )                        ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 22 / 268 ( 8 % )                            ;
+; Logic utilization (in ALMs)     ; 95 / 56,480 ( < 1 % )                       ;
+; Total registers                 ; 87                                          ;
+; Total pins                      ; 108 / 268 ( 40 % )                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 512 / 7,024,640 ( < 1 % )                   ;
 ; Total DSP Blocks                ; 0 / 156 ( 0 % )                             ;
@@ -68,31 +68,31 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/10/2020 15:39:44 ;
+; Start date & time ; 02/17/2020 15:31:23 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ComputadorReBasico  ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                ;
-+-------------------------------------+--------------------------------+--------------------+--------------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value      ; Entity Name        ; Section Id     ;
-+-------------------------------------+--------------------------------+--------------------+--------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 35774999760717.158136718400700 ; --                 ; --                 ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --                 ; --                 ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>             ; --                 ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                           ; --                 ; --                 ; eda_simulation ;
-; MISC_FILE                           ; ProgramMemory.bsf              ; --                 ; --                 ; --             ;
-; MISC_FILE                           ; ProgramMemory_inst.vhd         ; --                 ; --                 ; --             ;
-; MISC_FILE                           ; ProgramMemory.inc              ; --                 ; --                 ; --             ;
-; MISC_FILE                           ; ProgramMemory.cmp              ; --                 ; --                 ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --                 ; TestMemoriaSemana4 ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --                 ; TestMemoriaSemana4 ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --                 ; TestMemoriaSemana4 ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --                 ; --                 ; --             ;
-; TOP_LEVEL_ENTITY                    ; TestMemoriaSemana4             ; ComputadorReBasico ; --                 ; --             ;
-+-------------------------------------+--------------------------------+--------------------+--------------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                            ;
++-------------------------------------+--------------------------------+--------------------+----------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value      ; Entity Name    ; Section Id     ;
++-------------------------------------+--------------------------------+--------------------+----------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 35774999760717.158197148308196 ; --                 ; --             ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                    ; --                 ; --             ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)      ; <None>             ; --             ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                           ; --                 ; --             ; eda_simulation ;
+; MISC_FILE                           ; ProgramMemory.bsf              ; --                 ; --             ; --             ;
+; MISC_FILE                           ; ProgramMemory_inst.vhd         ; --                 ; --             ; --             ;
+; MISC_FILE                           ; ProgramMemory.inc              ; --                 ; --             ; --             ;
+; MISC_FILE                           ; ProgramMemory.cmp              ; --                 ; --             ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --                 ; CompBasicoSem5 ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --                 ; CompBasicoSem5 ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --                 ; CompBasicoSem5 ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --                 ; --             ; --             ;
+; TOP_LEVEL_ENTITY                    ; CompBasicoSem5                 ; ComputadorReBasico ; --             ; --             ;
++-------------------------------------+--------------------------------+--------------------+----------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -100,14 +100,16 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 5076 MB             ; 00:00:30                           ;
-; Fitter                    ; 00:00:59     ; 1.0                     ; 6906 MB             ; 00:01:16                           ;
-; Assembler                 ; 00:00:12     ; 1.0                     ; 5025 MB             ; 00:00:10                           ;
-; TimeQuest Timing Analyzer ; 00:00:09     ; 1.0                     ; 5390 MB             ; 00:00:08                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4931 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4913 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4923 MB             ; 00:00:02                           ;
-; Total                     ; 00:01:43     ; --                      ; --                  ; 00:02:10                           ;
+; Analysis & Synthesis      ; 00:00:16     ; 1.0                     ; 5066 MB             ; 00:00:30                           ;
+; Fitter                    ; 00:01:08     ; 1.0                     ; 6919 MB             ; 00:02:01                           ;
+; Assembler                 ; 00:00:10     ; 1.0                     ; 5023 MB             ; 00:00:10                           ;
+; TimeQuest Timing Analyzer ; 00:00:12     ; 1.1                     ; 5464 MB             ; 00:00:13                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4948 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4917 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4926 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4917 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 4925 MB             ; 00:00:02                           ;
+; Total                     ; 00:01:56     ; --                      ; --                  ; 00:03:04                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -123,6 +125,8 @@ agreement for further details.
 ; EDA Netlist Writer        ; DESKTOP-B3H0PSP  ; Windows 8 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-B3H0PSP  ; Windows 8 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-B3H0PSP  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-B3H0PSP  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-B3H0PSP  ; Windows 8 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -134,7 +138,9 @@ quartus_fit --read_settings_files=off --write_settings_files=off ComputadorReBas
 quartus_asm --read_settings_files=off --write_settings_files=off ComputadorReBasico -c ComputadorReBasico
 quartus_sta ComputadorReBasico -c ComputadorReBasico
 quartus_eda --read_settings_files=off --write_settings_files=off ComputadorReBasico -c ComputadorReBasico
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off ComputadorReBasico -c ComputadorReBasico --vector_source="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/WaveformTestMemorySem4.vwf" --testbench_file="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim/WaveformTestMemorySem4.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off ComputadorReBasico -c ComputadorReBasico --vector_source="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/WaveformSemana5.vwf" --testbench_file="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim/WaveformSemana5.vwf.vt"
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim/" ComputadorReBasico -c ComputadorReBasico
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off ComputadorReBasico -c ComputadorReBasico --vector_source="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/WaveformSemana5.vwf" --testbench_file="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim/WaveformSemana5.vwf.vt"
 quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="D:/uni/SIS 8/Arqui-Comp/tareas/ComputadorReBasicoTarea/simulation/qsim/" ComputadorReBasico -c ComputadorReBasico
 
 

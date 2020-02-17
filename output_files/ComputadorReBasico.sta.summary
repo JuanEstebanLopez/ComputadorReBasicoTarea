@@ -2,20 +2,148 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clock'
+Type  : Slow 1100mV 85C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -8.868
+TNS   : -373.776
+
+Type  : Slow 1100mV 85C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : -3.822
+TNS   : -17.689
+
+Type  : Slow 1100mV 85C Model Setup 'clkCPU'
+Slack : -2.392
+TNS   : -65.249
+
+Type  : Slow 1100mV 85C Model Hold 'clkCPU'
+Slack : -1.548
+TNS   : -27.374
+
+Type  : Slow 1100mV 85C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : 1.559
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : 2.933
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
 Slack : -3.166
-TNS   : -32.786
+TNS   : -32.861
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clock'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -0.724
+TNS   : -55.479
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clkCPU'
+Slack : -0.724
+TNS   : -43.604
+
+Type  : Slow 1100mV 0C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -9.020
+TNS   : -383.921
+
+Type  : Slow 1100mV 0C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : -3.933
+TNS   : -18.303
+
+Type  : Slow 1100mV 0C Model Setup 'clkCPU'
+Slack : -2.586
+TNS   : -60.330
+
+Type  : Slow 1100mV 0C Model Hold 'clkCPU'
+Slack : -1.685
+TNS   : -30.478
+
+Type  : Slow 1100mV 0C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : 1.277
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : 3.091
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
 Slack : -3.166
-TNS   : -32.759
+TNS   : -32.805
 
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clock'
-Slack : -2.174
-TNS   : -21.564
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -0.724
+TNS   : -54.982
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clock'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clkCPU'
+Slack : -0.724
+TNS   : -43.723
+
+Type  : Fast 1100mV 85C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -3.643
+TNS   : -148.411
+
+Type  : Fast 1100mV 85C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : -1.099
+TNS   : -4.963
+
+Type  : Fast 1100mV 85C Model Setup 'clkCPU'
+Slack : -0.999
+TNS   : -10.378
+
+Type  : Fast 1100mV 85C Model Hold 'clkCPU'
+Slack : -0.689
+TNS   : -12.052
+
+Type  : Fast 1100mV 85C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : 0.587
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : 1.068
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
 Slack : -2.174
-TNS   : -21.568
+TNS   : -21.709
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clkCPU'
+Slack : -0.534
+TNS   : -3.890
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -0.103
+TNS   : -1.467
+
+Type  : Fast 1100mV 0C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -3.323
+TNS   : -136.954
+
+Type  : Fast 1100mV 0C Model Setup 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : -1.053
+TNS   : -4.768
+
+Type  : Fast 1100mV 0C Model Setup 'clkCPU'
+Slack : -0.925
+TNS   : -6.777
+
+Type  : Fast 1100mV 0C Model Hold 'clkCPU'
+Slack : -0.713
+TNS   : -12.959
+
+Type  : Fast 1100mV 0C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : 0.498
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : 1.046
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|clkMemory'
+Slack : -2.174
+TNS   : -21.634
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clkCPU'
+Slack : -0.510
+TNS   : -3.904
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CPU8bits_v1:inst|ControlUnit_SM:inst11|ClkReg'
+Slack : -0.051
+TNS   : -0.475
 
 ------------------------------------------------------------
